@@ -38,6 +38,8 @@ input {
 }
 
 select {
+width: 100%;
+background-color: #3b3b4f;
 margin: 2px 0 10px 0;
 }
 
