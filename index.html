@@ -48,7 +48,7 @@
         <br>
         <h3>Position Context</h3>
         <label for="ContractYear">Year of contract signature/salary adjustment</label>
-        <input type="number" name="ContractYear" id="ContractYear" placeholder="Please enter the year in which you have signed either the contract or received the salary adjustment">
+        <input type="number" name="ContractYear" id="ContractYear" placeholder="Please enter the year in which you have signed either the contract or received the salary adjustment" required>
         <label for="Industry">Industry</label>
         <input type="text" name="Industry" id="Industry" placeholder="E.g. offshore wind, onshore wind, solar, PtX, etc.">
         <label for="EmployerType">Employer Type</label>
@@ -61,9 +61,9 @@
             <option value="5">Other</option>
         </select>
         <label for="EmployerName">Name of Employer</label>
-        <input type="text" id="EmployerName" name="EmployerName">
+        <input type="text" id="EmployerName" name="EmployerName" required>
         <label for="Department">Department</label>
-        <select id="Department" name="Department">
+        <select id="Department" name="Department" required>
             <option value="">Please select</option>
             <option value="1">Sales</option>
             <option value="2">Strategy</option>
@@ -105,9 +105,9 @@
         <label for="NonCompetitionCompensation">What is the compensation you receive during your Non Competition Clause period? (in % of salary)</label>
         <input type="number" id="NonCompetitionCompensation" name="NonCompetitionCompensation">
         <label for="TotalExperience">How many years of total work experience do you have?</label>
-        <input type="number" id="TotalExperience" name="TotalExperience">
+        <input type="number" id="TotalExperience" name="TotalExperience" required>
         <label for="RelevantExperience">How many years of relevant work experience do you have for this contract?</label>
-        <input type="number" id="RelevantExperience" name="RelevantExperience">
+        <input type="number" id="RelevantExperience" name="RelevantExperience" required>
         <label for="Gender">Gender</label>
         <select id="Gender" name="Gender">
             <option value="">Please select</option>
@@ -125,13 +125,13 @@
         </select>
         <h3>Salary Data</h3>
         <label for="BaseSalary">Annual base salary (in dkk)</label>
-        <input type="number" id="BaseSalary" name="BaseSalary">
+        <input type="number" id="BaseSalary" name="BaseSalary" required>
         <label for="AnnualBonus">Annual Bonus (in %)</label>
         <input type="number" id="AnnualBonus" name="AnnualBonus">
         <label for="Ferietillag">Ferietillæg (in %)</label>
         <input type="number" id="Ferietillag" name="Ferietillag">
         <label for="Pension">Pension Contribution of Employer (in %)</label>
-        <input type="number" id="Pension" name="Pension">
+        <input type="number" id="Pension" name="Pension" required>
         <h3>Other types of compensation</h3>
         <label for="ParentalLeave">Duration of parental leave</label>
         <select id="ParentalLeave" name="ParentalLeave">
@@ -147,7 +147,7 @@
         </select>
         <label for="ParentalPay">Payment during parental leave (in % of base salary)</label>
         <input type="number" id="ParentalPay" name="ParentalPay">
-        <label for="Comments">Any additional comments about your contractual situation?</label>
+        <label for="Comments">Please feel free to add any additional comments about your compensation or contractual situation</label>
         <textarea id="Comments" name="Comments" rows="5" cols="70"></textarea>
         <label for="Permission">By submitting this infomration I give the permission that my data is inserted in the Salary Comparison Platform and thus that it is visible to all participating member.</label>
         <input type="checkbox" id="Permission" name="Permission" required>
