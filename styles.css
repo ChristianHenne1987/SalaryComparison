@@ -41,6 +41,9 @@ select {
 width: 100%;
 background-color: #3b3b4f;
 margin: 2px 0 10px 0;
+    font-family:Tahoma;
+    color: #f5f6f7;
+
 }
 
 .inline {
